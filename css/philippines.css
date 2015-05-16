@@ -100,32 +100,58 @@ body {
 
 /*And this is our custom style*/
 
+#capital {
+    display: block;
+
+    width: 900px;
+    height: 700px;
+    padding: 40px 60px;
+}
 
 #capital .capitalintro {
-    font-size: 55px;
-    position: absolute;
-    top: -6em;
-    left: -9em;
-
-    -webkit-transform: translateZ(20px);
+    font-size: 50px;
+    /*position: absolute;
+    top: -0.5em;
+    left: 1.5em;*/
+    
+/*    -webkit-transform: translateZ(20px);
     -moz-transform:    translateZ(20px);
     -ms-transform:     translateZ(20px);
     -o-transform:      translateZ(20px);
-    transform:         translateZ(20px);
+    transform:         translateZ(20px);*/
 }
 
 #capital h1 {
-    font-size: 90px;
+    font-size: 60px;
 
-    -webkit-transform: translateZ(50px);
-    -moz-transform:    translateZ(50px);
-    -ms-transform:     translateZ(50px);
-    -o-transform:      translateZ(50px);
-    transform:         translateZ(50px);
+/*    -webkit-transform: translateZ(30px);
+    -moz-transform:    translateZ(30px);
+    -ms-transform:     translateZ(30px);
+    -o-transform:      translateZ(30px);
+    transform:         translateZ(30px);*/
 }
 
-.imagegallery{
-	height: 300px;
-	width: 400px;
-
+#capital .img-responsive{
+	height: 30%;
+	width: 30%;
 }
+
+.manila1{
+
+    padding-top: 30px;
+
+    -webkit-transform: rotate(-10deg);
+    -moz-transform:    rotate(-10deg);
+    -ms-transform:     rotate(-10deg);
+    -o-transform:      rotate(-10deg);
+    transform:         rotate(-10deg);
+
+    -webkit-transition-delay: 0.25s;
+    -moz-transition-delay:    0.25s;
+    -ms-transition-delay:     0.25s;
+    -o-transition-delay:      0.25s;
+    transition-delay:         0.25s;
+}
+
+
+
