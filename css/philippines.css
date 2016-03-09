@@ -100,16 +100,63 @@ body {
 
 /*And this is our custom style*/
 
+#begin{
+    
+    width: 1000px;
+    height: 700px;
+    font-size: 50px;
+}
+
+#begin h1 {
+    font-size: 190px;
+    position: absolute;
+    top: 0.5em;
+    left: 0.3em;
+
+    -webkit-transform: translateZ(50px);
+    -moz-transform:    translateZ(50px);
+    -ms-transform:     translateZ(50px);
+    -o-transform:      translateZ(50px);
+    transform:         translateZ(50px);
+}
+
+#geography {
+    /*display: block;*/
+    width: 1000px;
+    height: 700px;
+    float: left;
+}
+
+#geography .begin-header{
+    width: 40%;
+    float: left;
+    font-size: 50px;
+}
+
+#geography .begin-body{
+    padding-left: 120px;
+    float: left;
+}
+
+h1 {
+    font-size: 60px;
+
+/*    -webkit-transform: translateZ(30px);
+    -moz-transform:    translateZ(30px);
+    -ms-transform:     translateZ(30px);
+    -o-transform:      translateZ(30px);
+    transform:         translateZ(30px);*/
+}
+
 #capital {
     display: block;
-
     width: 900px;
     height: 700px;
     padding: 40px 60px;
 }
 
-#capital .capitalintro {
-    font-size: 50px;
+.capitalintro {
+    font-size: 40px;
     /*position: absolute;
     top: -0.5em;
     left: 1.5em;*/
@@ -121,37 +168,47 @@ body {
     transform:         translateZ(20px);*/
 }
 
-#capital h1 {
-    font-size: 60px;
 
-/*    -webkit-transform: translateZ(30px);
-    -moz-transform:    translateZ(30px);
-    -ms-transform:     translateZ(30px);
-    -o-transform:      translateZ(30px);
-    transform:         translateZ(30px);*/
-}
 
 #capital .img-responsive{
 	height: 30%;
 	width: 30%;
 }
 
-.manila1{
 
-    padding-top: 30px;
+#food {
+    display: block;
+    width: 900px;
+    height: 700px;
+    padding: 40px 60px;
+}
 
-    -webkit-transform: rotate(-10deg);
-    -moz-transform:    rotate(-10deg);
-    -ms-transform:     rotate(-10deg);
-    -o-transform:      rotate(-10deg);
-    transform:         rotate(-10deg);
+.foodintro {
+    font-size: 40px;
+}
 
-    -webkit-transition-delay: 0.25s;
-    -moz-transition-delay:    0.25s;
-    -ms-transition-delay:     0.25s;
-    -o-transition-delay:      0.25s;
-    transition-delay:         0.25s;
+.favoritefood{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#food .img-responsive{
+    height: 30%;
+    width: 30%;
 }
 
 
+#transportation {
+    display: block;
+    width: 900px;
+    height: 700px;
+    padding: 40px 60px;
+}
 
+.transportationintro {
+    font-size: 40px;
+}
+
+#transportation .img-responsive{
+    height: 30%;
+    width: 30%;
+}
